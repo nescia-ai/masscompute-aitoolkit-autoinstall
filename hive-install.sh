@@ -7,7 +7,8 @@ echo "  HiveCompute AI-Toolkit setup (Ubuntu 24.04)"
 echo "============================================"
 
 # Gde ćemo da radimo
-WORKDIR="/workspace"
+WORKDIR="$HOME/workspace"
+mkdir -p "$WORKDIR"
 cd "$WORKDIR"
 
 echo "[1/6] System update + osnovni paketi..."
